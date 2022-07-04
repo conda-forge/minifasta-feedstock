@@ -1,5 +1,5 @@
 {% set name = "miniFasta" %}
-{% set version = "2.3.2" %}
+{% set version = "2.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/not-a-feature/miniFASTA/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: fe83656e252306ec9683efc90ece2f20fcf78806d285b9056a02096ecb120e12
+  sha256: 4b97aa6952389194505607b95ca0ce95726336788056bbba77a4d7954c088118
 
 build:
   noarch: python
