@@ -1,5 +1,5 @@
 {% set name = "miniFasta" %}
-{% set version = "2.4.0" %}
+{% set version = "2.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/not-a-feature/miniFASTA/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 4b97aa6952389194505607b95ca0ce95726336788056bbba77a4d7954c088118
+  sha256: 9035e18b1377c3f43be4994067d6f5f664b227904a08bd9ec978938eb11c390b
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -34,9 +34,9 @@ about:
   license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE
-  summary: 'A simple FASTA toolbox for small to medium size projects without dependencies.'
+  summary: A simple FASTA toolbox for small to medium size projects without dependencies.
   description: |
-        A simple FASTA toolbox for small to medium size projects without dependencies.
+    A simple FASTA toolbox for small to medium size projects without dependencies.
   doc_url: https://github.com/not-a-feature/miniFASTA
   dev_url: https://github.com/not-a-feature/miniFASTA
 
