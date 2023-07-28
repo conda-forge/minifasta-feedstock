@@ -1,11 +1,11 @@
-About minifasta
-===============
+About minifasta-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/minifasta-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/not-a-feature/miniFASTA
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/minifasta-feedstock/blob/main/LICENSE.txt)
 
 Summary: A simple FASTA toolbox for small to medium size projects without dependencies.
 
